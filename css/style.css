@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.head-buttons a{
+    padding:2px ;
+}
+.header{
+    background-color: lightgray;
+}
+
+ .active{
+    background: blue;
+    color: white;
+    float: left;
+    border-radius: 20px;
+    color:white;
+    
+ }
+
+.navbar navbar-expand-sm{
+    position: fixed;
+    z-index: 1;
+}
+.li{
+    position: sticky;
+}
+     
+ .seprator{
+     width: 70px;
+     height: 3px;
+     background-color: lightgreen;
+     display: block;
+ }
+ .projects marquee{
+     height: 200px;
+ }
+ .p{
+     background-color: darkblue;
+     color: white;
+ }
+ .footer{
+     background-color: black;
+     color: white;
+ }

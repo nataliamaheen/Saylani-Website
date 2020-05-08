@@ -8,8 +8,16 @@ ul li{
 a{
     text-decoration: none;
 }
+.navbar-nav li :hover{
+    background-color: blue;
+    
+
+}
+
+
 .head-buttons a{
     padding:2px ;
+    
 }
 .header{
     background-color: lightgray;
@@ -49,3 +57,68 @@ a{
      background-color: black;
      color: white;
  }
+ .div-margin{
+     /* width:25%; */
+     margin: 5px 5px 5px 60px ;
+     /* box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16); */
+}
+/* {
+    margin:20px 80px 10px 280px;
+} */
+.social{
+    float: left;
+}
+
+.activity-div-list h4{
+    margin-top: 15px;
+    margin-bottom: 0px;
+    
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Merriweather',  serif;
+    color: #2655e9;
+}
+.activity-div-list{
+    background-color: #f7f8fa;
+    box-shadow: 0px 8px 20px 0px #dcdcdc;
+}
+.contact-div i{
+    width:30px;
+    height:30px;
+    padding:9px 7px;
+    color:white;
+    background-color:#2655e9;
+    border-radius:100%;
+}
+/* @media only screen and ( max-width: 700px){
+    .gallery-pics div{
+        display:block;
+        margin:10px 0px 0px 0px;
+        
+
+    }
+} 
+.gallery-pics{
+    /* display:flex; */
+    justify-content: space-between;
+    margin:0px 20px 0px 0px;
+    }
+
+.gallery-pics div{
+        margin:0px 10px 0px 0px;
+         */
+
+    }
+.fix-btn{
+    background-color: rgba(0, 0, 0, 0.15);
+    font-size: 42px;
+    padding: 0px 15px;
+    position: fixed;
+    bottom: 20px;
+    right: 50px; 
+    border-radius: 1px  ;
+        
+}
+.fix-btn i{
+    color: white; 
+}
